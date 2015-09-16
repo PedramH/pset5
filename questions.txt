@@ -1,0 +1,11 @@
+0.  it's the longest word in english that ever published in a dictionary. 
+1.  returns  resource usage measures for the calling proccess. 
+2.  16
+3.  maybe to save the time that it will take to copy those to structures every time we call that function
+4.  the for loop read one character form text at each iteration till is reaches the end of file. if the characters are alphabetic it will keep putting them in an character array until it reaches a space. then the word is complete and it will be spell checked using the check function.then it continues to read another character for another word. other wise if the character is not alphabetic it will ignore that and characters after that until it reach a space again and go for the next word.  
+5.  with this method we can detect words like e2book with a number int between and ignore the whole word but if we use fscanf with %s we get 2 seprate words from what we should have actually ignored. 
+6.  to prevent accidently changing them in check or hash function. 
+7.  Hash tables. first we have a node structure with two properties, word and a pointer to next node.for hash tables bucket we have an array of pointers to nodes.for handling collission I used seprate chaining with linked lists. 
+8.  It took up to 3.5 seconds to complete all the parts with large dic and alice.txt
+9.  changes the size of the bucket, changing the hash fuction.
+10. not anything crosses my mind
